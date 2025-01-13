@@ -1,3 +1,3 @@
 print ("Hello, World!")
-print ("This is Sam learning python again.")
-#2 print statements saying hello.
+print ("This is Sam, Learning Python.")
+# 2 lines saying hello
