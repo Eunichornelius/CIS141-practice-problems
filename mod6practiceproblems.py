@@ -28,15 +28,15 @@ for word in listless:
 print (listyess)
 
 #4. For a list of integers, write code that counts how many numbers are positive and how many are negative, then print both counts.
-numblist = [1, 2, 3, 4, 5, 6, 14, 16, 18, 7, 9, 11, 20, 33, 58, 29, 55, 32, 64, 128, 256, 512, 1028, 999]
-evennumber = []
-oddnumber = []
+numblist = [1, 2, -3, 4, -5, 6, 14, 16, 18, 7, 9, 11, 20, 33, -58, 29, -55, 32, -64, 128, 256, -512, 1028, -999]
+negnumber = []
+posnumber = []
 for elementary in numblist:
-    if elementary % 2 == 0:
-        evennumber.append(elementary)
+    if elementary < 0:
+        negnumber.append(elementary)
     else:
-        oddnumber.append(elementary)
-print("There are ", len(evennumber), "even numbers and ", len(oddnumber), " odd numbers.")
+        posnumber.append(elementary)
+print("There are ", len(negnumber), "negative numbers and ", len(posnumber), " positive numbers.")
 
 #5. For a list of integers, use a loop to build a new list where each element is the square of the corresponding element in the original list. Print the new list.
 numbrelist = [1, 2, 3, 4, 5, 6, 14, 16, 18, 7, 9, 11, 20, 33, 58, 29, 55, 32]
