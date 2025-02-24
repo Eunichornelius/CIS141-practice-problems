@@ -20,6 +20,7 @@ count_vowels(phrase)
     either True or False.
 '''
 def is_palindrome(yarn):
+    yarn = yarn.lower()
     backward = ""
     for letter in yarn:
         backward += letter
